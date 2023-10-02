@@ -1,0 +1,13 @@
+sentence = input("Enter a sentence or paragraph: ")
+
+# Counting words
+word_count = len(sentence.split())
+
+# Counting characters
+char_count = len(sentence)
+alpha_count=sum(c.isalpha() for c in sentence)
+
+
+print("Number of words:", word_count)
+print("Number of characters:", char_count)
+print("Number of alphabets:", alpha_count)
